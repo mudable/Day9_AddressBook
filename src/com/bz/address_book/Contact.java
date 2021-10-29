@@ -1,7 +1,12 @@
 package com.bz.address_book;
 
 public class Contact {
-	 @Override
+	/*
+	 * added contact details and created the constructor and applied getter and
+	 * setters.
+	 */
+
+	@Override
 	public String toString() {
 		return "Contact [first_name=" + first_name + ", last_name=" + last_name + ", address=" + address + ", city="
 				+ city + ", state=" + state + ", ph_no=" + ph_no + ", email=" + email + "]";
@@ -17,7 +22,6 @@ public class Contact {
 
 	public Contact(String first_name, String last_name, String address, String city, String state, int ph_no2,
 			String email) {
-
 		this.first_name = first_name;
 		this.last_name = last_name;
 		this.address = address;
@@ -71,7 +75,6 @@ public class Contact {
 		return ph_no;
 	}
 
-	
 	public void setPh_no(int ph_no) {
 		this.ph_no = ph_no;
 	}
@@ -86,11 +89,5 @@ public class Contact {
 
 	public void print() {
 		// TODO Auto-generated method stub
-		
 	}
-
-	
-	
-	
-
 }
